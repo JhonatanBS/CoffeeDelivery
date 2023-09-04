@@ -26,5 +26,32 @@ export const THEME = extendTheme({
     red_dark: "#C44117",
     red: "#E8BAAB",
     red_light: "#F2DFD8"
+  },
+
+  fontsFamily: {
+    heading: "Roboto_700Bold",
+    body: "Roboto_400Regular",
+    mono: "Baloo2_700Bold"
+  },
+
+  fontsSizes: {
+    title: {
+      XL: 36,
+      LG: 24,
+      MD: 20,
+      SM: 16,
+      XS: 14
+    },
+    text: {
+      LG: 20,
+      MD: 16,
+      SM: 14,
+      XS: 12
+    },
+  },
+
+  sizes: {
+    TAG: 10,
+    BUTTON: 14,
   }
 });
